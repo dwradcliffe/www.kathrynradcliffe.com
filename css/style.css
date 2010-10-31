@@ -83,18 +83,128 @@ button {  width: auto; overflow: visible; }
 
 
  /* Primary Styles
-    Author: 
+    Author: David Radcliffe
  */
 
+body {
+	background:#CCCCCC;
+	color: #7E7E7E;
+
+	line-height: 18px;
+}
+
+#container {
+	margin:0 auto;
+	width:819px;
+	background:#FFFFFF;
+}
+
+/* Header */
+
+header {
+	background: url(../images/chalkboard.jpg) no-repeat center top ;
+	height:496px;
+	margin:10px 0;
+	padding-top:90px;
+}
+
+header h1 {
+	color:#FFF;
+	text-align:center;
+	font-size:60px;
+	margin-top:55px;
+}
+
+/*header p.contact {
+	margin:0;
+}
+
+header p.contact span {
+	background:#FF5E99;
+	color:#fff;
+}*/
+
+header a, header a:active, header a:visited { color: #036; }
+header a:hover { color: #FF5E99; }
+
+#chalkboard_left,
+#chalkboard_right {
+	width:40%;
+	padding:40px;
+	color:#EEE;
+}
+
+#chalkboard_left {
+	float:left;
+	margin-top:5px;
+}
+
+#chalkboard_left img {
+	margin-left:60px;
+}
+
+#chalkboard_right {
+	float:right;
+	font-size:1.4em;
+	margin-top:55px;
+}
+
+#chalkboard_right p {
+	margin:8px;
+}
 
 
+/*  Content  */
+
+.page-content {
+	float: left;
+	width: 819px;
+}
+
+.entry {
+	border-bottom: ;
+	float: right;
+	margin-right: 32px;
+	padding-bottom: 10px;
+	padding-left: 31px;
+	padding-top: 10px;
+	width: 544px;
+}
+
+p {
+	display: block;
+	margin: 1em 0px;
+}
+
+p.title {
+	font-weight:bold;
+	color:#000000;
+	margin-bottom:0;
+}
+
+p.subtitle {
+	font-weight:bold;
+	margin:1px;
+}
+
+h2 {
+	color: black;
+	float: right;
+	font-family: 'Century Gothic';
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 20px;
+	margin: 20px 10px 0px 0px;
+	text-shadow: #C1C1C1 2px 2px 2px;
+}
 
 
+/*  Footer  */
 
-
-
-
-
+footer {
+	font-size:0.7em;
+	text-align:center;
+}
 
 
 
