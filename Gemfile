@@ -1,4 +1,5 @@
-source "http://rubygems.org"
+source :rubygems
 
-gem 'capistrano'
-gem 'cap_gun'
+gem 'rack-contrib'
+gem 'rack-rewrite'
+gem 'heroku'
